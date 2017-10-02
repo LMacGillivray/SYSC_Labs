@@ -68,9 +68,6 @@ public class AddressBook {
 		for(int i = 0; i < numOfBuddies; i++) {
 			System.out.println(friends[i].getBuddy());
 		}
-		int i = 20;
-		i--;
-		if(i == 20) {}
 		
 	}
 }
