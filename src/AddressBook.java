@@ -8,7 +8,7 @@ public class AddressBook {
 	public AddressBook() {
 		boolean finished = false;
 		
-		while(! finished) {
+		while(! finished) { 
 			System.out.println("What can I do for you (enter 'help' for assistance)?");
 			String response = scan.nextLine();
 			
@@ -69,5 +69,8 @@ public class AddressBook {
 			System.out.println(friends[i].getBuddy());
 		}
 		int i = 20;
+		i--;
+		if(i == 20) {}
+		
 	}
 }
